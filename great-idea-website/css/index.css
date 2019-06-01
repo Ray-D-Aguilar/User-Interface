@@ -79,7 +79,7 @@ a {
 	margin-right: 15px;
 	
 }
-
+/* Navigation bar*/
 .logo {
 	margin-left: 10px;
 }
@@ -87,7 +87,7 @@ a {
 nav {
 	text-align: center;
 }
-
+/* Main header and image*/
 .header {
 	display: inline-block;
 	width: 400px;
@@ -105,11 +105,26 @@ button {
 
 
 /* Main content */
-.top-content-p {
+.top-section-p {
 	display: inline-block;
 	width: 400px;
 	margin-top: 40px;
 	margin-bottom: 40px;
 }
 
-/*Footer*/
+.bottom-section-p {
+	display: inline-block;
+	width: 250px;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-top: 15px;
+}
+
+/*Footer section*/
+
+address {
+	text-align: left;
+	width: 150px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
