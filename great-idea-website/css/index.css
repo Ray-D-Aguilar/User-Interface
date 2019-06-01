@@ -93,10 +93,12 @@ nav {
 	width: 400px;
 }
 
+
 .header h1 {
 	font-size: 50px;
 	width: 100px;
 	text-align: center;
+	margin-left: 100px;
 }
 
 button {
@@ -127,4 +129,8 @@ address {
 	width: 150px;
 	margin-top: 10px;
 	margin-bottom: 10px;
+}
+
+.copyright {
+	text-align: center;
 }
