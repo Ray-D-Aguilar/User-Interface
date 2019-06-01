@@ -79,6 +79,12 @@ a {
 	margin-right: 15px;
 	
 }
+
+a:hover {
+	background: black;
+	color: white;
+}
+
 /* Navigation bar*/
 .logo {
 	margin-left: 10px;
@@ -86,8 +92,16 @@ a {
 
 nav {
 	text-align: center;
+	margin-bottom: 20px;
 }
 /* Main header and image*/
+
+
+
+.container-header {
+	width: 900px;
+}
+
 .header {
 	display: inline-block;
 	width: 400px;
@@ -96,15 +110,30 @@ nav {
 
 .header h1 {
 	font-size: 50px;
-	width: 100px;
+	width: 200px;
 	text-align: center;
-	margin-left: 100px;
+	margin: 0 auto;
+}
+
+.header img {
+	height: 300px;
+	margin: 0 auto;
 }
 
 button {
 	display: block;
+	background: white;
+	border: black 1px solid;
+	padding: 5px 15px 5px 15px;
+	text-align: center;
+	margin-left: 150px;
+	margin-bottom: 100px;
 }
 
+button:hover {
+	background: black;
+	color: white;
+}
 
 /* Main content */
 .top-section-p {
@@ -117,12 +146,14 @@ button {
 .bottom-section-p {
 	display: inline-block;
 	width: 250px;
-	margin-left: 20px;
-	margin-right: 20px;
-	margin-top: 15px;
+	margin: 15px 20px 15px 20px;
 }
 
 /*Footer section*/
+
+footer .contact h3 {
+	margin-top: 40px;
+}
 
 address {
 	text-align: left;
