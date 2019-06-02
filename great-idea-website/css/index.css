@@ -120,6 +120,8 @@ nav {
 	margin: 0 auto;
 }
 
+/* Button section */
+
 button {
 	display: block;
 	background: white;
@@ -136,6 +138,10 @@ button:hover {
 }
 
 /* Main content */
+
+
+/* Top section P refers to the top section*/
+
 .top-section-p {
 	display: inline-block;
 	width: 400px;
@@ -155,6 +161,7 @@ footer .contact h3 {
 	margin-top: 40px;
 }
 
+/* Address section */
 address {
 	text-align: left;
 	width: 150px;
